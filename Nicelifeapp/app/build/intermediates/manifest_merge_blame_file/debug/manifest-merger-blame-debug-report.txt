@@ -1,0 +1,319 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nicelife.apksehat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <application
+26-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:7:5-73:19
+27        android:allowBackup="true"
+27-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:8:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] C:\Users\ASUS\.gradle\caches\transforms-3\0747d23d091ad9b18dd42da038cce3b6\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@drawable/logo_program"
+30-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:9:9-46
+31        android:label="@string/app_name"
+31-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:10:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:11:9-54
+33        android:supportsRtl="true"
+33-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:12:9-35
+34        android:theme="@style/AppTheme"
+34-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:13:9-40
+35        android:usesCleartextTraffic="true" >
+35-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:14:9-44
+36        <meta-data
+36-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:16:9-18:44
+37            android:name="com.google.android.geo.API_KEY"
+37-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:17:13-58
+38            android:value="YOUR_API_KEY" />
+38-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:18:13-41
+39
+40        <activity
+40-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:20:9-26:20
+41            android:name="com.example.nicelife.apksehat.SignUpActivity"
+41-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:21:13-43
+42            android:exported="false" >
+42-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:22:13-37
+43            <meta-data
+43-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:23:13-25:36
+44                android:name="android.app.lib_name"
+44-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:24:17-52
+45                android:value="" />
+45-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:25:17-33
+46        </activity>
+47        <activity
+47-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:27:9-33:20
+48            android:name="com.example.nicelife.apksehat.Category.ResultBmi"
+48-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:28:13-47
+49            android:exported="false" >
+49-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:23:13-25:36
+51                android:name="android.app.lib_name"
+51-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:24:17-52
+52                android:value="" />
+52-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:25:17-33
+53        </activity>
+54        <activity
+54-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:34:9-40:20
+55            android:name="com.example.nicelife.apksehat.Category.BMI"
+55-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:35:13-41
+56            android:exported="false" >
+56-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:36:13-37
+57            <meta-data
+57-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:23:13-25:36
+58                android:name="android.app.lib_name"
+58-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:24:17-52
+59                android:value="" />
+59-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:25:17-33
+60        </activity>
+61        <activity
+61-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:41:9-52:20
+62            android:name="com.example.nicelife.apksehat.SplashScreen"
+62-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:42:13-41
+63            android:exported="true"
+63-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:43:13-36
+64            android:noHistory="true"
+64-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:44:13-37
+65            android:screenOrientation="portrait"
+65-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:45:13-49
+66            android:theme="@style/AppTheme.NoActionBar" >
+66-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:46:13-56
+67            <intent-filter>
+67-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:47:13-51:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:48:17-69
+68-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:48:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:50:17-77
+70-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:50:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:53:9-56:59
+74            android:name="com.example.nicelife.apksehat.MainActivity"
+74-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:54:13-41
+75            android:label="Health News"
+75-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:55:13-40
+76            android:theme="@style/AppTheme.NoActionBar" />
+76-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:56:13-56
+77        <activity
+77-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:57:9-59:39
+78            android:name="com.example.nicelife.apksehat.Category.Science"
+78-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:58:13-45
+79            android:label="Science" />
+79-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:59:13-36
+80        <activity
+80-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:60:9-62:38
+81            android:name="com.example.nicelife.apksehat.Category.Sports"
+81-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:61:13-44
+82            android:label="Sports" />
+82-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:62:13-35
+83        <activity
+83-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:63:9-65:43
+84            android:name="com.example.nicelife.apksehat.DetailActivity"
+84-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:64:13-43
+85            android:label="Detail News" />
+85-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:65:13-40
+86        <activity
+86-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:66:9-68:37
+87            android:name="com.example.nicelife.apksehat.LoginActivity"
+87-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:67:13-42
+88            android:label="Login" />
+88-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:68:13-34
+89        <activity
+89-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:69:9-72:53
+90            android:name="com.example.nicelife.apksehat.About"
+90-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:70:13-34
+91            android:screenOrientation="portrait"
+91-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:71:13-49
+92            android:theme="@style/AppTheme.PopUp" />
+92-->D:\Raffael\UPN\Mata Kuliah smt 5\Praktikum Pemrograman Mobile\a_Progress Program\UAS\cobalagi\Nicelifeapkcb\Nicelifeapklgn\app\src\main\AndroidManifest.xml:72:13-50
+93        <!-- Needs to be explicitly declared on P+ -->
+94        <uses-library
+94-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+95            android:name="org.apache.http.legacy"
+95-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+96            android:required="false" />
+96-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ASUS\.gradle\caches\transforms-3\f9bce1513d5149781d6afa22537eacc5\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+97
+98        <activity
+98-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+99            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+99-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+100            android:excludeFromRecents="true"
+100-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+101            android:exported="true"
+101-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+102            android:launchMode="singleTask"
+102-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+103-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+104            <intent-filter>
+104-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+105                <action android:name="android.intent.action.VIEW" />
+105-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+105-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+107-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+108                <category android:name="android.intent.category.BROWSABLE" />
+108-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+108-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+109
+110                <data
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+111                    android:host="firebase.auth"
+111-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+112                    android:path="/"
+112-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+113                    android:scheme="genericidp" />
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+117            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+121-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+122            <intent-filter>
+122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+127
+128                <data
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+129                    android:host="firebase.auth"
+129-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+130                    android:path="/"
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+131                    android:scheme="recaptcha" />
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+132            </intent-filter>
+133        </activity>
+134
+135        <service
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
+136            android:name="com.google.firebase.components.ComponentDiscoveryService"
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:65:13-84
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\073e83d679aea8c233e8afa5703645dc\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+138            android:exported="false" >
+138-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+139            <meta-data
+139-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+140                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+140-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\9023400256ec2a444fff1f9c3a38c49d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\127b2e59c94f025e6bfcd9a3094c30b0\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+143                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+143-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\127b2e59c94f025e6bfcd9a3094c30b0\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\127b2e59c94f025e6bfcd9a3094c30b0\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+145        </service>
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\073e83d679aea8c233e8afa5703645dc\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\073e83d679aea8c233e8afa5703645dc\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+149            android:authorities="com.example.nicelife.apksehat.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\073e83d679aea8c233e8afa5703645dc\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\073e83d679aea8c233e8afa5703645dc\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\073e83d679aea8c233e8afa5703645dc\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\073e83d679aea8c233e8afa5703645dc\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\897087659fcc0f2f7821fc41f6594eb1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\897087659fcc0f2f7821fc41f6594eb1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\897087659fcc0f2f7821fc41f6594eb1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\897087659fcc0f2f7821fc41f6594eb1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\f363d50e8e90eddda027bc3ed52ce72d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\f363d50e8e90eddda027bc3ed52ce72d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\f363d50e8e90eddda027bc3ed52ce72d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+162
+163        <provider
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0a1e31ee674353e5f2e747ec8de0136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+164            android:name="androidx.startup.InitializationProvider"
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0a1e31ee674353e5f2e747ec8de0136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+165            android:authorities="com.example.nicelife.apksehat.androidx-startup"
+165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0a1e31ee674353e5f2e747ec8de0136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+166            android:exported="false" >
+166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0a1e31ee674353e5f2e747ec8de0136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+167            <meta-data
+167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0a1e31ee674353e5f2e747ec8de0136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+168                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0a1e31ee674353e5f2e747ec8de0136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+169                android:value="androidx.startup" />
+169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\b0a1e31ee674353e5f2e747ec8de0136\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+170            <meta-data
+170-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\0c062439122e86186b39d9544217842c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+171                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+171-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\0c062439122e86186b39d9544217842c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+172                android:value="androidx.startup" />
+172-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\0c062439122e86186b39d9544217842c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+173        </provider>
+174    </application>
+175
+176</manifest>
