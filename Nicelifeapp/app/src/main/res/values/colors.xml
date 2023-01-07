@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCC500</color>
+    <color name="colorPrimaryDark">#143969</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="tundora">#484848</color>
+    <color name="wildSand">#F5F5F5</color>
+    <color name="codGray">#1B1B1B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="trans">#00000000</color>
+    <color name="warn">#FF1313</color>
+    <color name="halfwarn">#483FC8</color>
+    <color name="greenwarn">#A9E33B</color>
+</resources>
