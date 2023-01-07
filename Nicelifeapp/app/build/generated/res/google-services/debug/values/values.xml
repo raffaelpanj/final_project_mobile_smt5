@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">856925055277-v14864gk9g1dn38b0bu5uph12f0csuq7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">856925055277</string>
+    <string name="google_api_key" translatable="false">AIzaSyDwq3uXGbUAqiHbKLW7qepdhJbGy42j1Tk</string>
+    <string name="google_app_id" translatable="false">1:856925055277:android:e57cc0620498babaef8ba4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDwq3uXGbUAqiHbKLW7qepdhJbGy42j1Tk</string>
+    <string name="google_storage_bucket" translatable="false">nicelifed-94a4f.appspot.com</string>
+    <string name="project_id" translatable="false">nicelifed-94a4f</string>
+</resources>
